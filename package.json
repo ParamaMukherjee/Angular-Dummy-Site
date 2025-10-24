@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:azure": "ng build --prod",
+    "build:azure": "ng build --configuration prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:angular-dummy-site": "node dist/angular-dummy-site/server/server.mjs"
